@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+body{
+    background: #B1B1B1;
+}
+
+header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: #C4C4C4;
+    height: 155px;
+}
+
+nav{
+    margin-top: 100px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#ellipse{
+    position:absolute;
+    top:60%;
+    width: 144px;
+    height: 150px;
+    margin-left: 45px;
+}
+
+.name p{
+    display: block;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 45px;
+    font-family: Roboto;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 56px;
+    color: #949292;
+    backdrop-filter: blur(4px);
+}
+
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    display: flex;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+nav ul li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.42);
+}
+
+footer p{
+    display: inline;
+    width: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+#projects{
+    background: #B1B1B1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+#home:hover{
+    background: #B1B1B1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition: 500ms;
+}
+
+#skills:hover{
+    background: #B1B1B1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition: 500ms;
+}
+
+#profile:hover{
+    background: #B1B1B1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition: 500ms;
+}
+
+#contact:hover{
+    background: #B1B1B1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    transition: 500ms;
+}
+
+.miniprojects_heading{
+    margin-left: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: inline;
+    background: #E8E8E8;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 46px;
+    color: #91005F;
+    font-family: 'Red Hat Display', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.webdesigns_heading{
+    margin-left: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: inline;
+    background: #E8E8E8;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 46px;
+    color: #91005F;
+    font-family: 'Red Hat Display', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.miniprojects{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.webdesigns{
+    margin-top: 50px;
+    margin-left: 120px;
+    padding-bottom: 30px;
+}
+
+.webdesigns_content{
+    font-size: 20px;
+}
+
+table th{
+    background: #C4C4C4;
+    text-align: center;
+    color: #B50077;
+    font-size: 20px;
+    padding: 5px;
+}
+
+table td{
+    color: #840057;
+    padding: 5px;
+}
+
+table{
+    width: 80vw;
+}
+
+
+/* Responsive */
+
+@media (max-width: 815px ) {
+
+    nav ul{
+        display: none;
+    }
+
+    nav ul.showmenu{
+        display: block; 
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -350px;
+        background: #C4C4C4;
+        border-radius: 19px;
+       }
+
+    header{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        background-color: #C4C4C4;
+        height: 155px;
+    }
+
+    nav ul.showmenu li{
+        display: block;
+        list-style: none;
+        padding: 15px;
+        width: 400px;
+        text-align: center;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.18);
+    }
+    
+    nav ul.showmenu li a{
+        border-radius: 0px;
+        padding: 10px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 40px;
+        letter-spacing: 4px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    #projects{
+        color: #000000;
+        background: none;
+        width: 300px;
+        height: 42px;
+    }
+
+    #profile,#skills,#home,#contact{
+        color: #777676;
+        width: 240px;
+        height: 42px;
+    }
+
+    .menu-itempr{
+        border: 1px solid rgba(0, 0, 0, 0.22);
+    }
+
+    nav ul.showmenu::before{
+        content: '';
+        position: absolute;
+        top: -40px;
+        left: 345px;
+        border-top: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #C4C4C4;
+    }
+
+
+
+    .menu-btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        margin-right: 0px;
+        margin-top: -20px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        /* border: 3px solid #fff; */
+      }
+
+      .menu-btn__burger {
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 47, 220, 0.568);
+        transition: all .5s ease-in-out;
+      }
+      .menu-btn__burger::before,
+      .menu-btn__burger::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(255, 47, 220, 0.568);
+        transition: all .5s ease-in-out;
+      }
+      .menu-btn__burger::before {
+        transform: translateY(-16px);
+      }
+      .menu-btn__burger::after {
+        transform: translateY(16px);
+      }
+}
+
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+
+/*animations*/
+footer p{
+    opacity: 0;
+    animation: slideinright 9000ms ease-in 0ms infinite forwards;
+}
+
+@keyframes slideinright{
+    from{
+        opacity: 1;
+        transform: translateX(150px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.miniprojects,.webdesigns{
+    z-index: -5;
+}
+
+.miniprojects_heading,.webdesigns_heading{
+    opacity: 0;
+    animation: fadein 300ms ease-in 0ms forwards;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.miniprojects_content,.webdesigns_content{
+    opacity: 0;
+    animation: slideinleft 300ms ease-in 300ms forwards;
+}
+
+@keyframes slideinleft{
+    from{
+        opacity: 1;
+        transform: translateX(-1000px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@media (max-width: 770px) {
+    footer p{
+        opacity: 1;
+        animation: none;
+    }
+}
