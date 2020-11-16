@@ -14,10 +14,9 @@
         <nav>
             <ul class="">
                 <li class="menu-itemh"><a  id="home" href="./index.html">HOME</a></li>
-                <li class="menu-itemp" ><a id="profile" href="./profile.html">PROFILE</a></li>
+                <li class="menu-itemp" ><a id="profile" href="./qualification.html">QUALIFICATION</a></li>
                 <li class="menu-items" ><a id="skills" href="./skills.html">SKILLS</a></li>
                 <li class="menu-itempr" ><a id="projects" href="./projects.html">PROJECTS</a></li>
-                <li class="menu-itemc"><a  id="contact" href="./contact.html">CONTACT</a></li>
             </ul>
             <div class="menu-btn">
                 <div class="menu-btn__burger"></div>
@@ -27,38 +26,53 @@
     <main>
         <div class="miniprojects">
             <p class="miniprojects_heading">MINI PROJECTS :</p>
-            <div class="miniprojects_content">
-                <table cellspacing="0" cellpadding="5" border="5">
-                    <tr>
-                        <th>Sr. No.</th>
-                        <th>Project Topic</th>
-                        <th>Language</th>
-                        <th>Description</th>
-                        <th>Link</th>
-                    </tr>
-                    <tr>
-                        <td>1.</td>
-                        <td>Food Delivery System</td>
-                        <td>C</td>
-                        <td>This project is developed using circular queue.</td>
-                        <td><a href="https://github.com/riddhipsharma/Food-Delivery-System-C">https://github.com/riddhipsharma/Food-Delivery-System-C</a></td>
-                    </tr>
-                    <tr>
-                        <td>2.</td>
-                        <td>Movie Ticket Booking System</td>
-                        <td>Java</td>
-                        <td>This project is aimed at developing an online ticket reservation system for a Cinema Hall. This project is developed using java applet.</td>
-                        <td><a href="https://github.com/riddhipsharma/Movie-Ticket-Booking-System-Java">https://github.com/riddhipsharma/Movie-Ticket-Booking-System-Java</a></td>
-                    </tr>
-                    <tr>
-                        <td>3.</td>
-                        <td>To-Do List</td>
-                        <td>Python</td>
-                        <td>A To-do-list application which helps one to maintain a record of things which needs to be done. In developing this project, for GUI application tkinter is used.</td>
-                        <td><a href="https://github.com/riddhipsharma/To-Do-List-Python"> https://github.com/riddhipsharma/To-Do-List-Python</a></td>
-                    </tr>
+        </div>
+        <div class="content projects-container">
+                <table class="mp">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Project Title</th>
+                            <th>Link to Project</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>
+                                Food Delivery System Management
+                                <a href="https://github.com/riddhipsharma/Food-Delivery-System-C">
+                                    <img src="./assets/images/mdi_cloud_download.svg" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://github.com/riddhipsharma/Food-Delivery-System-C"><img class="load" src="./assets/images/Download1.png" alt="">Download</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Movie Ticket Booking System
+                                <a href="https://github.com/riddhipsharma/Movie-Ticket-Booking-System-Java">
+                                    <img src="./assets/images/mdi_cloud_download.svg" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://github.com/riddhipsharma/Movie-Ticket-Booking-System-Java"><img class="load" src="./assets/images/Download1.png" alt="">Download</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>To-Do List
+                                <a href="https://github.com/riddhipsharma/To-Do-List-Python">
+                                    <img src="./assets/images/mdi_cloud_download.svg" alt="">
+                                </a>
+                            </td>
+                            <td>
+                                <a href="https://github.com/riddhipsharma/To-Do-List-Python"><img src="./assets/images/Download1.png" class="load" alt="">Download</a>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
-            </div>
         </div>
         <div class="webdesigns">
             <p class="webdesigns_heading">WEB DESIGNS :</p>
@@ -66,8 +80,58 @@
         </div>
     </main>
     <footer>
-        <p>STUDENT</p>
-        <p>Currently pursuing B.E. in COMPUTERS</p>
+        <div class="lower-bar">
+            <div class="contactme">
+                <p class="cm_heading">CONTACT ME :</p>
+            </div>
+            <div class="contact">
+                <table>
+                    <tbody><tr>
+                        <td><img src="./assets/images/phone.jpg" alt=""></td>
+                        <td>+91 9167745627</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/images/mail.png" alt=""></td>
+                        <td>riddhisharma2212@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/images/location.png" alt=""></td>
+                        <td>South Mumbai, Maharashtra, India</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/images/instagram.jpg" alt=""></td>
+                        <td>/riddhipsharma</td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="message">
+                <p class="msg_heading">GET IN TOUCH :</p>
+            </div>
+            <div class="contact-form">
+                <form action="./index.html" method="GET">
+                        <div>
+                            <label for="name">Name</label>
+                            <input required type="text" name="name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input required type="email" name="email">
+                        </div>
+                        <div>
+                            <label for="mobile">Mobile</label>
+                            <input required type="text" name="mobile">
+                        </div>
+                        <div class="address">
+                            <label for="address">Address</label>
+                            <textarea name="address" id="" ></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button >SUBMIT</button>
+                        </div>    
+                </form>
+            </div>
+        </div>
     </footer>
     <script src="./js/main.js"></script>
 </body>

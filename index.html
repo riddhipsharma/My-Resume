@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -14,10 +13,9 @@
         <nav>
             <ul class="">
                 <li class="menu-itemh"><a  id="home" href="#">HOME</a></li>
-                <li class="menu-itemp" ><a id="profile" href="./profile.html">PROFILE</a></li>
+                <li class="menu-itemp" ><a id="profile" href="./qualification.html">QUALIFICATION</a></li>
                 <li class="menu-items" ><a id="skills" href="./skills.html">SKILLS</a></li>
                 <li class="menu-itempr" ><a id="projects" href="./projects.html">PROJECTS</a></li>
-                <li class="menu-itemc"><a  id="contact" href="./contact.html">CONTACT</a></li>
             </ul>
             <div class="menu-btn">
                 <div class="menu-btn__burger"></div>
@@ -27,17 +25,63 @@
     <main>
         <div class="student"><p>I’m a STUDENT</p> <p> Currently pursuing B.E. in Computers.</p></div>
         <div class="aim">
-            <p id="aimheading">AIM : </p>
-            <p id="aimcontent">To work in a challenging environment which uses and demands all my skills and helps me to know my potential and gives an opportunity to learn new things everyday.</p>            
-        </div>
-        <div class="areasofinterest">
-            <p id="areasofinterest_heading">AREAS OF INTEREST : </p>
-            <p class="areasofinterest_content">~ Artificial Intelligence </p>
-            <p class="areasofinterest_content">~ Data Science </p>
-            <p class="areasofinterest_content">~ Machine Learning </p>
-            <p class="areasofinterest_content">~ App Development </p>
+            <p id="aimcontent">A person with creative mind, dedicated and punctual towards her work. My aim is to work in a challenging environment which uses and demands all my skills and helps me to know my potential and gives an opportunity to learn new skills everyday.</p>            
         </div>
     </main>
+    <footer>
+        <div class="lower-bar">
+            <div class="contactme">
+                <p class="cm_heading">CONTACT ME :</p>
+            </div>
+            <div class="contact">
+                <table>
+                    <tbody><tr>
+                        <td><img src="./assets/images/phone.jpg" alt=""></td>
+                        <td>+91 9167745627</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/images/mail.png" alt=""></td>
+                        <td>riddhisharma2212@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/images/location.png" alt=""></td>
+                        <td>South Mumbai, Maharashtra, India</td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/images/instagram.jpg" alt=""></td>
+                        <td>/riddhipsharma</td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="message">
+                <p class="msg_heading">GET IN TOUCH :</p>
+            </div>
+            <div class="contact-form">
+                <form action="./index.html" method="GET">
+                    <div>
+                        <label for="name">Name</label>
+                        <input required type="text" name="name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input required type="email" name="email">
+                    </div>
+                    <div>
+                        <label for="mobile">Mobile</label>
+                        <input required type="text" name="mobile">
+                    </div>
+                    <div class="address">
+                        <label for="address">Address</label>
+                        <textarea name="address" id="" ></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button >SUBMIT</button>
+                    </div>    
+            </form>
+            </div>
+        </div>
+    </footer>
     <script src="./js/main.js"></script>
 </body>
 </html>
